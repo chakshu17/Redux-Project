@@ -1,16 +1,14 @@
-import React from 'react'
-import { createStore } from "redux";
+import React, { Component } from 'react'
 
-const store = createStore();
-
-
-function toDoList() {
-
-  return (
-    <div>
-        List
-    </div>
-  )
+export class ToDoList extends Component {
+  render() {
+    return (
+      <div>
+      
+      </div>
+    )
+  }
 }
 
-export default toDoList
+export default ToDoList
+

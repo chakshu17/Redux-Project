@@ -2,7 +2,7 @@ export const ADD = "add";
 
 export const actionCreater = (value) => {
 	if (value === undefined) {
-		value: "Chakshu";
+		value= "Chakshu";
 	}
 	return {
 		type: ADD,
